@@ -8,8 +8,6 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class AuthPage {
 
-
-
     private final SelenideElement popup = $x("//button[text() = 'Войти'][1]");
     private final SelenideElement inputLogin = $x("//input[@name='username']");
     private final SelenideElement inputPass = $x("//input[@name='password']");
